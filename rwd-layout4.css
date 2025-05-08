@@ -13,6 +13,14 @@
     width: 280px;
     margin: 10px;
 }
+.desktop-menu{
+    text-align: center;
+        display: block;
+}
+.mobil-menu{
+    text-align: center;
+    display: none;
+}
 @media only screen and (max-width: 1000px){
 .list{
     flex-wrap: wrap;
@@ -26,3 +34,21 @@
     width: 90%;
 }
 }
+@media only screen and (max-width: 500px){
+    .headline{
+        font-size: 20px;
+        
+    }
+    .desktop-menu{
+        text-align: center;
+            display: none;
+    }
+    .mobil-menu{
+        text-align: center;
+        display: block;
+    }
+  
+    .item{
+        width: 90%;
+    }
+    }
